@@ -1,0 +1,34 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+use_frameworks!
+
+target 'KY28Game' do
+
+project 'KY28Game.xcodeproj'
+
+pod 'Alamofire' 
+
+pod 'SwiftyJSON'
+
+pod 'ObjectMapper'
+
+pod 'CryptoSwift'
+
+pod 'MBProgressHUD'
+
+pod 'SDWebImage'
+
+pod 'MJRefresh'
+
+pod 'IQKeyboardManagerSwift'
+
+pod 'WebViewJavascriptBridge'
+
+pod 'SwiftEventBus'
+
+pod 'ZWPlaceHolder'
+end
+
+
